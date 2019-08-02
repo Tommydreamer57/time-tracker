@@ -1,24 +1,35 @@
 {
-  "name": "time-tracker",
-  "version": "1.0.0",
-  "description": "CLI for tracking hours, pay, invoices",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tommydreamer57/time-tracker.git"
-  },
-  "keywords": [
-    "time",
-    "tracking",
-    "cli"
-  ],
-  "author": "tommydreamer57",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tommydreamer57/time-tracker/issues"
-  },
-  "homepage": "https://github.com/tommydreamer57/time-tracker#readme"
+    "name": "time-tracker",
+    "version": "1.0.0",
+    "description": "CLI for tracking hours, pay, invoices",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tommydreamer57/time-tracker.git"
+    },
+    "keywords": [
+        "time",
+        "tracking",
+        "cli"
+    ],
+    "author": "tommydreamer57",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tommydreamer57/time-tracker/issues"
+    },
+    "homepage": "https://github.com/tommydreamer57/time-tracker#readme",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "command-line-usage": "^6.0.2",
+        "minimist": "^1.2.0",
+        "touch": "^3.1.0"
+    },
+    "nodemonConfig": {
+        "execMap":{
+            "js": "node . log --help"
+        }
+    }
 }
