@@ -1,0 +1,24 @@
+{
+  "name": "time-tracker",
+  "version": "1.0.0",
+  "description": "CLI for tracking hours, pay, invoices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommydreamer57/time-tracker.git"
+  },
+  "keywords": [
+    "time",
+    "tracking",
+    "cli"
+  ],
+  "author": "tommydreamer57",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommydreamer57/time-tracker/issues"
+  },
+  "homepage": "https://github.com/tommydreamer57/time-tracker#readme"
+}
