@@ -24,7 +24,7 @@
     "dependencies": {
         "chalk": "^2.4.2",
         "command-line-usage": "^6.0.2",
-        "minimist": "^1.2.0",
+        "minimist": "^1.2.3",
         "touch": "^3.1.0"
     },
     "nodemonConfig": {
